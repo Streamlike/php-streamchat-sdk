@@ -1,0 +1,26 @@
+{
+  "name": "streamlike/php-streamchat-sdk",
+  "description": "Use this toolkit to easily call streamchat.fr API endpoints",
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Mediatech",
+      "email": "technique@mediatech.fr"
+    }
+  ],
+  "require": {
+    "php": "^5.4||^7",
+    "ext-curl": "*"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
