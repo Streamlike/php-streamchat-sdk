@@ -21,7 +21,7 @@ class Sdk
     /**
      * HTTP Separator for multipart request.
      */
-    const BOUNDARY = 'STREAMLIKEBOUND';
+    const BOUNDARY = 'SCBOUND';
 
     private $token;
     private $host;
@@ -192,7 +192,7 @@ class Sdk
             'Accept: application/json',
         ];
         if (null !== $this->token) {
-            $headers[] = 'X-Streamchat-Authorization: ' . $this->token;
+            $headers[] = 'X-Chat-Authorization: ' . $this->token;
         }
 
         if ($isMultipart) {
