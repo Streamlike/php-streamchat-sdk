@@ -21,7 +21,7 @@ class Sdk
     /**
      * HTTP Separator for multipart request.
      */
-    const BOUNDARY = 'SCBOUND';
+    const BOUNDARY = 'CHATBOUND';
 
     private $token;
     private $host;
